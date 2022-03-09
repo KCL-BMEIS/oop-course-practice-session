@@ -11,6 +11,7 @@ public:
     LeftVentricle () { }
     LeftVentricle (const std::string& filename) { load (filename); }
     void load (const std::string& filename);
+    double get_std_dev_TTP_displacement () const;
 
 private:
     double time_resolution;
