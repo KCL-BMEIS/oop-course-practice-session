@@ -8,6 +8,8 @@
 class LeftVentricle
 {
 public:
+    LeftVentricle () { }
+    LeftVentricle (const std::string& filename) { load (filename); }
     void load (const std::string& filename);
 
 private:
